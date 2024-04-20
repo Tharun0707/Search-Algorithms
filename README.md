@@ -19,12 +19,54 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
+#developed by: THARUN SRIDHAR
+#register no:212223230230
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
+#developed by: THARUN SRIDHAR
+#register no:212223230230
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
@@ -33,13 +75,36 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-
+#developed by: THARUN SRIDHAR
+#register no:212223230230
+def binarySearchIter(array, k, low, high):
+    while low<=high:
+        mid=low+(high-low)//2
+        if array[mid]==k:
+            return mid
+        elif array[mid]<k:
+            low=mid+1
+        else:
+            high=mid-1
+    return -1
+array = eval(input())
+array.sort()
+k = eval(input()) 
+print(array)
+res=binarySearchIter(array,k,0,len(array)-1)
+if res==-1:
+    print("Element not found")
+else:
+    print("Element found at index: ",res)
 
 
 
 
 ```
 ## Sample Input and Output
+![image](https://github.com/Tharun0707/Search-Algorithms/assets/145548496/490fc0ed-bbcd-490b-adf9-4a80a3089ac8)
+![image](https://github.com/Tharun0707/Search-Algorithms/assets/145548496/eba28922-feb4-48ab-ab42-ed995af1bfe4)
+![image](https://github.com/Tharun0707/Search-Algorithms/assets/145548496/649aa121-f3f4-4add-9f9a-41af1ca6d300)
 
 
 
